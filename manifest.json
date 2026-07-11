@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ramindex",
+  "plugins": [
+    {
+      "id": "ramindex-user-data",
+      "name": "Ramindex User Data",
+      "description": "Encrypted account persistence, playback progress, playlists, and cross-device user-owned data for Velvet.",
+      "version": "0.1.1",
+      "velvetApiVersion": "1",
+      "modules": ["user-data"],
+      "package": "@theramindex/ramindex-user-data",
+      "source": {
+        "type": "release-asset",
+        "url": "https://github.com/theramindex/velvet-plugins/releases/download/ramindex-user-data-v0.1.1/theramindex-ramindex-user-data-0.1.1.tgz",
+        "sha256": "fd3926bb563323fd7b7958e865f429593f849d615b2f9aa994fc5c7fefb8e4fa"
+      }
+    }
+  ]
+}
